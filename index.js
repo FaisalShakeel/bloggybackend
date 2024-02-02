@@ -8,3 +8,4 @@ app.listen(PORT,()=>{
     console.log("Listening ON PORT:",PORT)
 
 })
+module.exports = app
