@@ -1,5 +1,7 @@
 const express= require('express')
+const cors= require('cors')
 const app= express()
+app.use(cors())
 const PORT = process.env.PORT||4001
 app.get("/",(req,res)=>{
     res.json({title:"Next JS Server Side Rendering",description:"In this article,we will be learning about SSR In Next JS"})
